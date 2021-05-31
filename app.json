@@ -69,6 +69,16 @@
       "value": "/app/.apt/usr/bin/google-chrome",
       "required": false
     },
+    "SUDO_USERS": {
+      "description": "Enter your friends user id to to give him bot sudo access",
+      "value": "",
+      "required": false
+    },
+    "SUDO_COMMAND_HAND_LER": {
+      "description": "Please enter sudo user command handler",
+      "value": "*",
+      "required": false
+    },
     "CHROME_DRIVER": {
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.chromedriver/bin/chromedriver",
